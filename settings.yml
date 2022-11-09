@@ -1,0 +1,21 @@
+pm_recipients:
+  type: string
+  default: ""
+  description: "Add recipients to account deletion PM. You can add multiple recipients username or group separate with comma. <br> For example: admins, moderators <br> Note: The selected group have to accept personal messages."
+dropdown_button_icon:
+  type: string
+  default: "question-circle"
+  description: "Here you can change the delete my account dropdown button icon."
+request_dropdown_item_icon:
+  type: string
+  default: "far-trash-alt"
+  description: "Here you can change the account deletion dropdown item icon."
+info_dropdown_item_icon:
+  type: string
+  default: "info-circle"
+  description: "Here you can change the more info dropdown item icon."
+svg_icons: 
+  default: ""
+  type: "list"
+  list_type: "compact"
+  description: "List of FontAwesome 5 icons used in this theme component."

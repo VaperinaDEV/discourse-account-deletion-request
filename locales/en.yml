@@ -1,0 +1,17 @@
+en:
+  account_deletion:
+    dropdown:
+      button_text: "Delete My Account"
+      request:
+        item_name: "Account Deletion Request"
+        item_description: "Do you want to send us an account deletion request?"
+      info:
+        item_name: "More Info"
+        item_description: "Read more about account deletion..."
+    modal:
+      header_title: "Account Deletion"
+      title: "How it works?"
+      description: "When you send us an account deletion request..."
+    pm:
+      title: "Account Deletion Request"
+      body: "Please tell us why you want to delete your account?"

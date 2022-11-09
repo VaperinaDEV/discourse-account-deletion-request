@@ -1,0 +1,9 @@
+{{#unless this.model.canDeleteAccount}}
+  {{#unless this.currentUser.staff}}
+    <div class="control-group account-deletion-request-button">
+      <div class="controls">
+        {{account-deletion-request}}
+      </div>
+    </div>
+  {{/unless}}
+{{/unless}}
