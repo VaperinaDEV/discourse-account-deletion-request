@@ -1,3 +1,7 @@
+hide_for_staff:
+  type: bool
+  default: false
+  description: "Enable this if you want to hide the dropdown for staff users."
 pm_recipients:
   type: string
   default: ""
