@@ -3,7 +3,7 @@ import { getOwner } from "discourse-common/lib/get-owner";
 import Composer from "discourse/models/composer";
 import DropdownSelectBoxComponent from "select-kit/components/dropdown-select-box";
 import { computed } from "@ember/object";
-import showModal from "discourse/lib/show-modal";
+import AccountDeletionModal from "../components/modal/account-deletion-modal";
 import I18n from "I18n";
 
 export default DropdownSelectBoxComponent.extend({
@@ -56,9 +56,11 @@ export default DropdownSelectBoxComponent.extend({
         archetypeId: "private_message",
       });
     }
-  
+    
     if (selectedAction === "more_info") {
-      showModal("accountDeletionModal");
+      const modal = getOwner(this).lookup("service:modal");
+      
+      modal.show(AccountDeletionModal);
     }
   },
 });
