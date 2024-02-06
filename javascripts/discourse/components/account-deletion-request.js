@@ -1,5 +1,5 @@
 import { action } from "@ember/object";
-import { getOwner } from "discourse-common/lib/get-owner";
+import { getOwner } from "@ember/application"
 import Composer from "discourse/models/composer";
 import DropdownSelectBoxComponent from "select-kit/components/dropdown-select-box";
 import { computed } from "@ember/object";
