@@ -16,7 +16,7 @@ request_dropdown_item_icon:
   description: "Here you can change the account deletion dropdown item icon."
 info_dropdown_item_icon:
   type: string
-  default: "info-circle"
+  default: "circle-info"
   description: "Here you can change the more info dropdown item icon."
 svg_icons:
   default: "circle-question|far-trash-can|circle-info"
