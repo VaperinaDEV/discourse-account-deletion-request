@@ -12,14 +12,14 @@ dropdown_button_icon:
   description: "Here you can change the delete my account dropdown button icon."
 request_dropdown_item_icon:
   type: string
-  default: "far-trash-alt"
+  default: "far-trash-can"
   description: "Here you can change the account deletion dropdown item icon."
 info_dropdown_item_icon:
   type: string
   default: "info-circle"
   description: "Here you can change the more info dropdown item icon."
 svg_icons:
-  default: "circle-question|far-trash-alt|info-circle"
+  default: "circle-question|far-trash-can|circle-info"
   type: "list"
   list_type: "compact"
-  description: "List of FontAwesome 5 icons used in this theme component."
+  description: "List of FontAwesome 6 icons used in this theme component."
