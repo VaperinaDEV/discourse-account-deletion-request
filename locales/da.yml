@@ -1,0 +1,25 @@
+da:
+  account_deletion:
+    dropdown:
+      button_text: "Slet min konto"
+      request:
+        item_name: "Slet konto anmodning"
+        item_description: "Ønsker du at sende os en anmodning om sletning af konto?"
+      info:
+        item_name: "Mere Info"
+        item_description: "Læs mere omkring sletning af konto..."
+    modal:
+      header_title: "Sletning af konto"
+      title: "Hvordan virker det?"
+      description: "Når du sender os en anmodning om sletning af konto..."
+    pm:
+      title: "Anmodning om sletning af konto"
+      body: "Fortæl os hvorfor du ønsker at slette din konto?"
+  theme_metadata:
+    settings:
+      hide_for_staff: "Aktiver dette hvis du ønsker at skjule dropdown for personale brugere."
+      pm_recipients: "Tilføj modtagere til sletning af konto PM. Du kan tilføje flere modtagere brugernavn eller gruppe, adskil med komma. <br> For eksempel: admins, moderators <br> Note: Den valgte gruppe skal acceptere personlige meddelelser."
+      dropdown_button_icon: "Her kan du ændre Slet min konto dropdown knap ikonet."
+      request_dropdown_item_icon: "Her kan du ændre Sletning af konto dropdown element ikonet."
+      info_dropdown_item_icon: "Her kan du ændre mere info dropdown element ikonet."
+      svg_icons: "Liste af FontAwesome 6 ikoner brugt i denne tema komponent."
